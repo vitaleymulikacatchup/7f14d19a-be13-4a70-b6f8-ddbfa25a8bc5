@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -12,7 +12,7 @@ import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import BlogCardTwo from '@/components/sections/blog/BlogCardTwo';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { BookOpen, Mail, Package, Quote, Shield, Users, Zap } from "lucide-react";
+import { BookOpen, Github, Globe, Linkedin, Mail, Package, Quote, Shield, Twitter, Users, Zap } from "lucide-react";
 
 const assetMap: { id: string; url: string; alt?: string }[] = [
   {"id":"hero-background","url":"https://images.pexels.com/photos/34332317/pexels-photo-34332317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"modern office technology workspace - Photo by Pew Nguyen"},
@@ -184,11 +184,11 @@ export default function Home() {
               imageAlt: getAssetAlt("team-member-1", "Sarah Johnson portrait"),
               socialLinks: [
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/sarah-johnson"
                 },
                 {
-                  icon: "Twitter",
+                  icon: Twitter,
                   url: "https://twitter.com/sarah_johnson"
                 }
               ]
@@ -201,11 +201,11 @@ export default function Home() {
               imageAlt: getAssetAlt("team-member-2", "Michael Chen portrait"),
               socialLinks: [
                 {
-                  icon: "Github",
+                  icon: Github,
                   url: "https://github.com/michael-chen"
                 },
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/michael-chen"
                 }
               ]
@@ -218,11 +218,11 @@ export default function Home() {
               imageAlt: getAssetAlt("team-member-3", "Emily Rodriguez portrait"),
               socialLinks: [
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/emily-rodriguez"
                 },
                 {
-                  icon: "Globe",
+                  icon: Globe,
                   url: "https://emily-rodriguez.com"
                 }
               ]
@@ -235,11 +235,11 @@ export default function Home() {
               imageAlt: getAssetAlt("team-member-4", "David Kim portrait"),
               socialLinks: [
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/david-kim"
                 },
                 {
-                  icon: "Twitter",
+                  icon: Twitter,
                   url: "https://twitter.com/david_kim"
                 }
               ]
